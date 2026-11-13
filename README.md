@@ -1,47 +1,33 @@
 # Computer Architecture — CA Exam Guide
 
-**A browser-based study guide for computer architecture continuous-assessment preparation.**
-
-This repository contains a self-contained educational HTML page with structured study content, navigation, question/answer styling, and a responsive reading layout.
+A browser-based study guide for computer architecture continuous-assessment preparation.
 
 ## Intended use
-
 - Review computer architecture concepts.
 - Navigate study sections.
 - Read explanations and practice-oriented question/answer material.
 - Use the guide as a browser-based revision resource.
 
-The guide is a learning aid; students should also consult official course materials and lecturer instructions.
+This guide is a learning aid. Consult official course materials and lecturer instructions as well.
 
 ## Technology
-
 HTML5, CSS, and browser-native JavaScript.
 
 ## Run locally
-
 ```bash
 git clone https://github.com/nyohleonard-nlktech/Computer-Architecture-CA-Exam-Guide.git
 cd Computer-Architecture-CA-Exam-Guide
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000` in a browser. Alternatively, open `index.html` directly.
+Visit http://localhost:8000 or open index.html directly.
 
-## Project structure
-
+## Structure
 ```text
-.
-├── index.html
-└── README.md
+index.html
+README.md
 ```
 
-## Suggested improvements
+Suggested improvements: add authoritative references, worked solutions, stable section anchors, and periodic technical reviews.
 
-- Add a table of contents with stable section anchors.
-- Include references to authoritative textbooks and lecture notes.
-- Add practice questions with worked solutions.
-- Review technical explanations for accuracy before each academic term.
-
-## License
-
-No license file is currently present. All rights reserved unless an explicit license is added.
+No license file is present; all rights reserved unless an explicit license is added.
